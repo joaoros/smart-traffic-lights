@@ -1,4 +1,4 @@
-//to run is required to change this file to .ino
+//need to change this file to .ino to run it.
 
 #include <Ultrasonic.h> // adding ultrasonic sensor's library 
 
