@@ -1,3 +1,5 @@
+//to run is required to change this file to .ino
+
 #include <Ultrasonic.h> // adding ultrasonic sensor's library 
 
 const int trig = 12; // setting the pin of ultrassonic sensor' trigger
@@ -45,7 +47,7 @@ void loop()
 
   if ( distance >= 5) // if the sensor detects a car (5cm is the minimum distance detected by the HC-SR04)...
   {
-    delay(2000); // the major traffic lights turns yellow...
+    delay(2000); // the main traffic lights turns yellow...
     digitalWrite(VERMELHO1, LOW);
     digitalWrite(AMARELO1, HIGH);
     digitalWrite(VERDE1, LOW);
@@ -66,7 +68,7 @@ void loop()
     digitalWrite(VERMELHO2, LOW);
     digitalWrite(AMARELO2, HIGH);
     digitalWrite(VERDE2, LOW);
-    delay(3000); // ... and after red, and the major traffic lights turns green again....
+    delay(3000); // ... and after red, and the main traffic lights turns green again....
     digitalWrite(VERMELHO1, LOW);
     digitalWrite(AMARELO1, LOW);
     digitalWrite(VERDE1, HIGH);
@@ -75,7 +77,7 @@ void loop()
     digitalWrite(VERDE2, LOW);
     delay(20000); // ... for at least 20s... this makes the traffic lights of the side street can't change the situation in this time.
   }
-  else // if any other car be detected by the sensor, the traffic lights of major street stays green
+  else // if any other car be detected by the sensor, the traffic lights of main street stays green
   {
     digitalWrite(VERMELHO1, LOW);
     digitalWrite(AMARELO1, LOW);
