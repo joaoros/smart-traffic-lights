@@ -45,7 +45,7 @@ void loop()
   Serial.println(distance); // printing the distance in monitor serial
   
 
-  if ( distance >= 5) // if the sensor detects a car (5cm is the minimum distance detected by the HC-SR04)...
+  if ( distance >= 5) // if the sensor detects a car (5cm is the minimum distance detected by HC-SR04)...
   {
     delay(2000); // the main traffic lights turns yellow...
     digitalWrite(VERMELHO1, LOW);
@@ -68,16 +68,16 @@ void loop()
     digitalWrite(VERMELHO2, LOW);
     digitalWrite(AMARELO2, HIGH);
     digitalWrite(VERDE2, LOW);
-    delay(3000); // ... and after red, and the main traffic lights turns green again....
+    delay(3000); // ... and after red. The main traffic lights turns green again....
     digitalWrite(VERMELHO1, LOW);
     digitalWrite(AMARELO1, LOW);
     digitalWrite(VERDE1, HIGH);
     digitalWrite(VERMELHO2, HIGH);
     digitalWrite(AMARELO2, LOW);
     digitalWrite(VERDE2, LOW);
-    delay(20000); // ... for at least 20s... this makes the traffic lights of the side street can't change the situation in this time.
+    delay(20000); // ... for at least 20s... this makes the traffic lights of the side street can't change its mode in this time.
   }
-  else // if any other car be detected by the sensor, the traffic lights of main street stays green
+  else // if any other car be detected by the sensor, the traffic lights of main street stays green.
   {
     digitalWrite(VERMELHO1, LOW);
     digitalWrite(AMARELO1, LOW);
