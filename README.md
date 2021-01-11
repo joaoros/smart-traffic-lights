@@ -1,5 +1,5 @@
 # Smart Traffic Lights 🚦🚗
-Arduino project developed for Electronics Class (University Center of FEI.) - June 2020
+Arduino project developed for Electronics Class (University Center of FEI) - June 2020
 
 ### About this project... 📐✂️📕
 It was created for a final test in the first period of college. The project had to be related to movement and I opted to build it when I was going back home after my professor told us about this assignment, I was stopped at a red light on a cross street and the other one was completely empty. If there was some sensor to detected my car, I would not wasted my time there. I build a scale model on top of a box - where was Arduino - and used some toy cars. To the traffic lights, I used some pillboxes with holes to connect the leds which were weld with resistors and these second ones were also weld to the jumpers, that were inside the tubes.
