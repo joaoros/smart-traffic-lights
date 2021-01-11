@@ -20,7 +20,7 @@ It was created for a final test in the first period of college. The project had 
 ### Project Video...
 - This video was the final part of the assignment. It is all commented in PT-BR <img src=https://images.emojiterra.com/openmoji/v12.2/512px/1f1e7-1f1f7.png width = "25" height = "25" align="center"> and you can see the all project working.
 
-[Click here to watch it 😊](https://youtu.be/WjHErVD95cg)
+Click [here](https://youtu.be/WjHErVD95cg) to watch it 😊
 
 <hr>
 <a href="https://www.linkedin.com/in/joaodaros/"> <img src="https://cdn.iconscout.com/icon/free/png-256/linkedin-208-916919.png" width = "25" height = "25" align = "right">
